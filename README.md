@@ -12,10 +12,10 @@
 - This is my second ever project
 
 
-## Link	Site published at https://lukasj17.github.io/Sign-up/
+## Link	Site published at 
 
 
-https://lukasj17.github.io/Mergaite-antras/	Design: [Sign-up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
+https://lukasj17.github.io/Sign-up/	Design: [Sign-up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 
 
 ## Author	## Project features
