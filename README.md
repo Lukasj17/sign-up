@@ -19,7 +19,7 @@ https://lukasj17.github.io/Sign-up/
 Design: [Sign-up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 
 
-## Author	## Project features
+## Author	
 
 
 Lukas [Github](https://github.com/lukasj17)	- HTML
