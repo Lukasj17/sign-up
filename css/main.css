@@ -1,8 +1,8 @@
+
 .container {
     display: inline-block;
     width: 800px;
     margin-top: 80px;
-    background-color: red;
     margin-left: calc( (100% - 800px) / 2 );
 }
 
@@ -15,5 +15,43 @@
 .right-column {
     width: 60%;
     float: left;
-    background-color: yellow;
+}
+form {
+    display: inline-block;
+    width: 100%;
+}
+form > .form-row  {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+form > .form-row:last-of-type {
+    margin-bottom: 0;
+}
+form > .form-row > label {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+form > .form-row > input {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+form > .form-row > button {
+    float: left;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #015cda;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
 }
