@@ -6,115 +6,106 @@ body * {
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 body {
-    background-color: #9fcbe0;
-  }
+  background-color: #9fcbe0;
+}
+
 .container {
-    display: inline-block;
-    width: 800px;
-    margin-top: 90px;
-    margin-left: calc( (100% - 800px) / 2 );
+  display: inline-block;
+  width: 800px;
+  margin-top: 90px;
+  margin-left: calc((100% - 800px) / 2);
 }
 
 .left-column {
-    display: inline-block;
-    width: 40%;
-    float: left;
+  width: 40%;
+  float: left;
+  background-color: blue;
 }
-.left-img {
 
-}
-.left-signup {
-    position: absolute;
-    top: 22%;
-    left: 22%;
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: 100;
-    font-size: 40px;
-    font-family: system-ui, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.privacy {
-    width: 100%;
-    position: absolute;
-    top: 60%;
-    left: 22%;
-    color: #fff;
-    font-size: 10px;
-    font-family: 'Courier New', Courier, monospace;
-}
 .right-column {
-    width: 60%;
-    float: left;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    background-color: #fff;
+  width: 60%;
+  float: left;
+  padding: 60px;
+  background-color: #fff;
+  position: relative;
 }
+
 .close {
-    float: right;
-    margin-right: 10px;
-    font-size: 25px;
-    margin-bottom: 10px;
-    cursor: pointer;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 57px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #777;
 }
+.close:hover {
+  color: #333;
+  cursor: pointer;
+}
+
 form {
-    display: inline-block;
-    width: 87%;
-    margin-left: 40px;
-    color: #C4C4C4;
+  display: inline-block;
+  width: 100%;
 }
-form > .form-row  {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 40px;
+form > .form-row {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 40px;
 }
 form > .form-row:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 form > .form-row > label {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 5px;
-    font-size: 12px;
-    text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 form > .form-row > input {
-    display: inline-block;
-    width: 100%;
-    font-size: 20px;
-    line-height: 30px;
-    border: none;
-    border-bottom: 2px solid #ccc;
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+  border: none;
+  border-bottom: 2px solid #ccc;
 }
 form > .form-row > button {
-    float: left;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: none;
-    border-radius: 20px;
-    background-color: #015cda;
-    line-height: 20px;
-    text-transform: capitalize;
-    font-size: 15px;
-    font-weight: bold;
-    color: #fff;
-    cursor: pointer;
+  float: left;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 18px;
+  font-weight: bold; /* bold: 700, normal: 400 */
+  line-height: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #015cda;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
 }
 form > .form-row > span {
-    float: left;
-    padding: 5px;
-    margin-left: 15px;
-    margin-right: 5px;
-    font-size: 18px;
-    line-height: 25px;
+  float: left;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 18px;
+  line-height: 20px;
 }
 form > .form-row > a {
-    float: left;
-    padding: 5px;
-    font-size: 18px;
-    text-decoration: none;
-    color: #015cda;
-    line-height: 25px;
-    font-weight: bold;
+  float: left;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #015cda;
+  text-decoration: none;
+  font-weight: bold;
 }
