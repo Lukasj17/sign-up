@@ -15,24 +15,26 @@
             <h1 class="left-signup">
                 sign up
             </h1>
-            <h2 class="privacy">
-                privacy policy & terms of service
-            </h2>
+            <a class="privacy" href="#">privacy policy & terms of service</a>
         </div>
         <div class="right-column">
         <div class="close">X</div>
-            <form>
+            <form> 
             <div class="form-row">
-                <label for="">username</label>
-                <input type="email">
+                <label for="username">Username</label>
+                <input id="username" type="text" placeholder="Username" required>
             </div>
             <div class="form-row">
-                <label for="">Password</label>
-                <input type="password">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Email" required>
             </div>
             <div class="form-row">
-                <label for="">Repeat password</label>
-                <input type="repeat password">
+                <label for="pass">Password</label>
+                <input id="pass" type="password" placeholder="Password" required>
+            </div>
+            <div class="form-row">
+                <label for="re-pass">Repeat password</label>
+                <input id="re-pass" type="password" placeholder="Repeat" required>
             </div>
             <div class="form-row">
                 <button type="submit">Get started</button>
